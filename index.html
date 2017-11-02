@@ -64,8 +64,8 @@
   <header class="masthead" style="padding-top:10vh">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in" style="font-size:1.65rem">SOFTWARE DEVELOPMENT &#8226; BIOMEDICAL ENGINEERING &#8226; BUSINESS MANAGEMENT</div>
-        <div class="text-uppercase section-heading intro-lead-in" style="font-size:.9rem">- Engineering Simple Solutions to Complex Problems -</div>
+        <div class="intro-lead-in intro-title" style="font-size:1.65rem">SOFTWARE DEVELOPMENT &#8226; BIOMEDICAL ENGINEERING &#8226; BUSINESS MANAGEMENT</div>
+        <div class="text-uppercase section-heading intro-lead-in quote" style="font-size:.9rem">- Engineering Simple Solutions to Complex Problems -</div>
 <!--         <h6 class="section-subheading text-muted">As a software developer with a background in biomedical-engineering and business management, I pursue a path that
 combines my interest in healthcare with my passion in designing and implementing newer technologies.</h6> -->
 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">See My Projects</a>
@@ -850,20 +850,31 @@ function fall() {
 
   for (var a = 0; a < letters.length; a++) {
     var b = characters[Math.floor(Math.random() * characters.length)];
-    canvasMatrix.fillText(b, a * customfont,
-      letters[a] * customfont),
-    letters[a] * customfont > c.height && Math.random() > .965 &&        (letters[a] = 0), letters[a]++}}
+
+    var x = "   "+words[Math.floor(Math.random() * words.length)];
+    if (letters[a] * customfont > c.height && Math.random() > .987 && (letters[a] = 0)) {
+
+    }
+    else {
+
+       canvasMatrix.fillText(b, a * customfont, letters[a] * customfont)
+              canvasMatrix.fillText(x, a * customfont, letters[a] * customfont)
+
+    }
+    letters[a]++
+    }
+    }
 
     var c = document.getElementById("c"),
     characters = "abcdefghijklmnopqrstuvxzwy0123456789%&#?¥µ§ØΩφΣπ$Üñþ√ϖϑβξ¶Æ".split(""),
-    canvasMatrix = c.getContext("2d");
+    canvasMatrix = c.getContext("2d"),
+    words = ['Hello World','<html>','Sass {Css}','Bio-Med','Engineering',"σ = F x n / A  ", 'Grunt','Angular','Ruby','Rails','Ionic','Polymer','Δv = Δt(a)','Design','Research','Development'];
     c.height = window.innerHeight;
     c.width = window.innerWidth;
 
 
     for (var customfont = 13, columns = c.width / customfont, letters = [],     x = 0; x < columns; x++) {letters[x] = 1;}
       setInterval(fall, 100)
-
 
 
   </script>

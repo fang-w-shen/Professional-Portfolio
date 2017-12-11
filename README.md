@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Agency Preview](https://github.com/fang-w-shen/Professional-Portfolio/blob/master/img/portfolio/ftris.png)](https://fang-w-shen.github.io/Professional-Portfolio/)
+[![Agency Preview](https://github.com/fang-w-shen/Professional-Portfolio/blob/master/img/portfolio/preview.png)](https://fang-w-shen.github.io/Professional-Portfolio/)
 
 **[View Portfolio](https://fang-w-shen.github.io/Professional-Portfolio/)**
 

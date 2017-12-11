@@ -2,10 +2,10 @@
 
 ## Preview
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://fang-w-shen.github.io/Professional-Portfolio/)
+[![Agency Preview](https://fang-w-shen.github.io/Professional-Portfolio/)](https://fang-w-shen.github.io/Professional-Portfolio/)
 
 **[View Portfolio](https://fang-w-shen.github.io/Professional-Portfolio/)**
 
 
 ## Copyright and License
-Copyright 2017 Blackrock Digital LLC. Code released under [FANG](https://github.com/fang-w-shen).
+Copyright 2017 under [Fang-W-Shen](https://github.com/fang-w-shen).

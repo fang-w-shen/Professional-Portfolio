@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Agency Preview](https://fang-w-shen.github.io/Professional-Portfolio/)](https://fang-w-shen.github.io/Professional-Portfolio/)
+[![Agency Preview]('img/portfolio/accutemp.png')](https://fang-w-shen.github.io/Professional-Portfolio/)
 
 **[View Portfolio](https://fang-w-shen.github.io/Professional-Portfolio/)**
 

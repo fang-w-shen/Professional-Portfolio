@@ -746,7 +746,6 @@
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
 
-<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 
 <script type="text/javascript">
 //create the canvas element
@@ -847,23 +846,7 @@ $(window).bind("load", function() {
   $('body').css('overflow-y','visible');
 });
 </script>
-<script>
-  if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)))
-  {
-    window.location = 'no-support.html';
-  }
 
-  /* Preload */
-  var queue = new createjs.LoadQueue();
-
-
-
-  queue.loadManifest([
-  {
-    "id": 1,
-    "src": "./img/"
-  }])
-  </script>
 </body>
 
 </html>

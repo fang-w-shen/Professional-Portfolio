@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![PREVIEW](https://github.com/fang-w-shen/Professional-Portfolio/blob/master/img/portfolio/previews.png)](https://fang-w-shen.github.io/Professional-Portfolio/)
+[![PREVIEW](https://github.com/fang-w-shen/Professional-Portfolio/blob/master/img/background1.png)](https://fang-w-shen.github.io/Professional-Portfolio/)
 
 
 **[View Portfolio](https://fang-w-shen.github.io/Professional-Portfolio/)**

@@ -22,7 +22,7 @@
 </head>
 
 <body id="page-top" onload="setDynamicBackground()" style="overflow:hidden">
-<div id="loadingpage" style="width:100vw;height:100vh;background:black;">
+<div id="loadingpage" style="width:100vw;height:100vh;background:black;z-index:1">
 <div class="spinner">
   <div class="rect1"></div>
   <div class="rect2"></div>
@@ -33,7 +33,8 @@
 </div>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="z-index:1">
+  <div id="transparent-thing" style="position:fixed;top:0;opacity:0;width:100vw;height:10vh;"></div>
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">FANG W. SHEN</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Background</a>
+            <a class="nav-link js-scroll-trigger" href="#team" disabled='true'>Background</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -756,6 +757,7 @@
 
 
 <script type="text/javascript">
+
 //create the canvas element
 var myCanvas = document.createElement("canvas");
 
@@ -852,6 +854,11 @@ $(window).bind("load", function() {
   $('#loadingpage').addClass('loaded');
   $('#easein').addClass('easein');
   $('body').css('overflow-y','visible');
+  $( document ).ready(function() {
+    $('#transparent-thing').css('display','none');
+  });
+
+  $('#transparent-thing').attr('z-index','0 !important');
 });
 </script>
 

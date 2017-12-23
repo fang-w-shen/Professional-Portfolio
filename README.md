@@ -5,7 +5,7 @@
 [![PREVIEW](https://github.com/fang-w-shen/Professional-Portfolio/blob/master/img/previews.png)](https://fang-w-shen.github.io/Professional-Portfolio/)
 
 
-**[View Portfolio](https://fang-w-shen.github.io/Professional-Portfolio/)**
+**[View Portfolio!](https://fang-w-shen.github.io/Professional-Portfolio/)**
 
 
 ## Copyright and License

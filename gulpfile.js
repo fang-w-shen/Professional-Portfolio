@@ -89,7 +89,15 @@ gulp.task('copy', function() {
 })
 
 // Default task
-gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['browserSync','sass', 'minify-css', 'minify-js', 'copy'], function() {
+
+  gulp.watch('scss/*.scss', ['sass']);
+  gulp.watch('css/*.css', ['minify-css']);
+  gulp.watch('js/*.js', ['minify-js']);
+  // Reloads the browser whenever HTML or JS files change
+  gulp.watch('*.html', browserSync.reload);
+  gulp.watch('js/**/*.js', browserSync.reload);
+});
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
